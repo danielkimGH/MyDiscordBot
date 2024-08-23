@@ -1,19 +1,23 @@
 <h3>My Discord Bot</h3>
+
 Have you ever streamed to an audience while listening to Spotify and wanted to take in
 song requests from your audience? This bot can deliver that capability! It shows the information
 on the current song, song queue list, and adds song to the queue list!
 
 <h4>Commands</h4>
+
 * <b>!song</b> - Shows the artist and title of current song
 * <b>!queue</b> - Shows the next five (5) songs in queue (<i>limited to only show 5 to reduce chat clutter</i>)
 * <b>!add <i>{Spotify song URL}</i></b> - Adds song to queue (<i>note: will not add the song if it's already in queue</i>)
 
 <h4>Required Software</h4>
+
 * PyCharm
 * Python Libraries: discord, os, spotipy, dotenv
 * Spotify desktop
 
 <h4>Setup</h4>
+
 1. Clone this repo and within the root directory of the project folder, create a file called `.env`,
 within this file copy and paste the following four (4) lines of text:<p>
 `DISCORD_BOT_TOKEN=`<p>
@@ -36,6 +40,7 @@ on a Spotify track, selecting <b>Share</b>, and then <b>Copy Song Link</b>.<p>Fo
 `!add https://open.spotify.com/track/4DvhkX2ic4zWkQeWMwQ2qf?si=dcd87cfbf50748a9`
 
 <h4>References</h4>
+
 * [Spotipy.py](https://spotipy.readthedocs.io/en/2.24.0/#)
 * [Discord.py](https://discordpy.readthedocs.io/en/stable/index.html#)
 * [Spotify](https://developer.spotify.com/documentation/web-api)
